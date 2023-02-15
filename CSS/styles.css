@@ -1,0 +1,138 @@
+/* цвет фона #FFFFFF */
+/* вторичний цвет фона #F5F4FA */
+/* цвет текста кнопок и hover #FFFFFF */
+/* основной цвет текста #757575 */
+/* цвет текста заголовков #212121 */
+/* акцант с тексте и кнопках #2196F3 */
+/* логотип цвет #000000 */
+/* футер #2F303A */
+/* футер контакты rgba(255, 255, 255, 0.6) */
+:root {
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --logo-text-color: #000000;
+  --accent-color: #2196f3;
+  --button-text: #ffffff;
+  --footer-bg-color: #2f303a;
+  --footer-text-contakt: rgba(255, 255, 255, 0.6);
+}
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+/* шапка сайта */
+.logo {
+  color: var(--logo-text-color);
+}
+.logo > span {
+  color: var(--accent-color);
+}
+.site-nav {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+.hero-title {
+  color: var(--button-text);
+  background-color: #757575;
+}
+.hiro-button {
+  background-color: var(--accent-color);
+  color: var(--button-text);
+}
+/* первая секция , преимущиства */
+.advantage-title {
+  color: var(--title-text-color);
+}
+.advantage-text {
+}
+.advantage-pic {
+}
+/* вторая секция, чем мы занимаемся, do */
+.do-title {
+  color: var(--title-text-color);
+}
+.do-list {
+}
+.do-item {
+  color: var(--button-text);
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.do-pic {
+}
+/* третья секция команда, team*/
+.team {
+  background-color: var(--secondary-bg-color);
+}
+.team-list {
+}
+.team-itam {
+}
+.team-pic {
+}
+.team-title {
+  color: var(--title-text-color);
+}
+.team-subject {
+  color: var(--title-text-color);
+}
+.team-text {
+}
+.icon-list {
+}
+.icon-link {
+}
+/* четвертая секция клиенты, clients */
+.clients {
+}
+.clients-title {
+  color: var(--title-text-color);
+}
+.clients-list {
+}
+.clients-pic {
+}
+/* Футер footer */
+.footer {
+  background-color: var(--footer-bg-color);
+}
+.logo-footer {
+  color: var(--button-text);
+}
+.logo-footer > span {
+  color: var(--accent-color);
+}
+/* контакты  contacts*/
+.contacts {
+}
+.contacts-list {
+}
+.contacts-item {
+}
+.contacts-mail,
+.contacts-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+.contacts-address {
+  color: var(--button-text);
+}
+/* присоединяйтесь  */
+.join-text {
+  color: var(--button-text);
+}
+/* рассылка */
+.mailing-text,
+.mailing-link {
+  color: var(--button-text);
+}
